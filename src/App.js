@@ -1,21 +1,37 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+// React Router Integration
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
+
+// Redux Integration
+import { PersistGate } from 'redux-persist/integration/react';
+import { Provider } from 'react-redux';
+import { store, persistor } from './redux';
+
+// Imported Screens
+import { Home } from './pages';
+
+// Enable Parallax Scrolling
+import { ParallaxProvider } from 'react-scroll-parallax'
+
+const App = () => {
+  return (
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <ParallaxProvider>
+          <Router>
+            <Switch>
+              <Route exact path='/' component={Home} />
+            </Switch>
+          </Router>
+        </ParallaxProvider>
+      </PersistGate>
+    </Provider>
+  )
 }
 
-export default App;
+export default App
