@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Parallax} from 'react-scroll-parallax'
+// import {Parallax} from 'react-scroll-parallax'
 
 
 export default class Home extends Component {
@@ -9,4 +9,12 @@ export default class Home extends Component {
             
         }
     }
-}
+
+    render() {
+        return (
+            <div>
+                Yoooooo
+            </div>
+        )
+    }
+};
