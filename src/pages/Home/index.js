@@ -1,20 +1,9 @@
-import React, {Component} from 'react';
-// import {Parallax} from 'react-scroll-parallax'
+import Home from './Home';
 
+export {
+    Home
+}
 
-export default class Home extends Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            
-        }
-    }
-
-    render() {
-        return (
-            <div>
-                Yoooooo
-            </div>
-        )
-    }
-};
+export default {
+    Home
+}

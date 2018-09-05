@@ -1,0 +1,119 @@
+.fullScreen {
+    position: relative;
+    margin: 0 100px 0 100px;
+}
+.title {
+    text-align: center;
+    font-weight: 100;
+}
+.divider {
+    border-bottom: 1px solid #febbbb;
+}
+.cards {
+    background: #f2f2f2;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 10em;
+    padding: 1.5em;
+    position: relative;
+    transition: height 0.4s, box-shadow 0.5s;
+}
+.cards:hover {
+    box-shadow: 0 0 2em #999;
+    height: 18em;
+    transition: height 0.3s ease, box-shadow 0.5s ease;
+}
+.cards:hover .divider {
+    opacity: 0.5;
+}
+.cards:hover .info {
+    transition: top 0.5s ease, opacity 1s ease;
+    visibility: visible;
+    top: 1%;
+    opacity: 1;
+}
+.cards:hover .icon {
+    font-size: 2em;
+    left: 45%;
+    transition: font-size 0.3s, left 0.3s;
+}
+.cards .info {
+    position: relative;
+    visibility: hidden;
+    top: -50%;
+    opacity: 0;
+}
+.cards .icon {
+    color: #febbbb;
+    font-size: 4em;
+    text-align: center;
+    padding: 0em;
+    position: relative;
+    left: 43%;
+    top: 0em;
+    transition: font-size 0.3s ease, left 0.3s ease;
+}
+.cards .title {
+    color: #999;
+    text-align: center;
+    font-weight: 300;
+}
+.cards .lead {
+    color: #999;
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center;
+    hyphens: auto;
+}
+.cards .btn {
+    color: #00c5a7;
+    border: 1px solid #00c5a7;
+    border-radius: 3px;
+    transition: color 0.3s, background 0.3s;
+}
+.cards .btn:hover {
+    background: #00c5a7;
+    color: #fff;
+    transition: background 0.5s ease;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ownerLink {
+    margin: 15px auto 15px;
+    padding: 10.333333849999999px 19.375px;
+    border: 1px solid #d0d0d0;
+    display: inline-block;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-transition: background border 0.35s ease;
+    -moz-transition: background border 0.35s ease;
+    -o-transition: background border 0.35s ease;
+    transition: background border 0.35s ease;
+}
+
+.ownerLink:focus {
+    outline: none;
+    border: 1px solid #dd3333;
+}
+
+.ownerLink:hover {
+    cursor: pointer;
+    background: #eaeaea;
+    border: 1px solid #dd3333;
+}
+
+.ownerLink:active {
+    background: #d0d0d0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
