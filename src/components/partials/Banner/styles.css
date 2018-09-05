@@ -1,0 +1,8 @@
+.bannerContainer {
+    padding: 80px 0 80px 0;
+    background: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+};

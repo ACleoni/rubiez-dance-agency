@@ -1,9 +1,12 @@
-import Home from './Home';
+import { Home } from './Home';
+import { About } from './About';
+import { Bookings } from './Bookings';
+import { Sessions } from './Sessions';
 
 export {
-    Home
+    Home, About, Bookings, Sessions
 };
 
 export default {
-    Home
+    Home, About, Bookings, Sessions
 };

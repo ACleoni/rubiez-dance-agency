@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+form.contactForm {
+    width: 100%;
+    max-width: 580px;
+    margin: 50px auto;
+    font-size: 15.5px;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    line-height: 25.079px;
+    letter-spacing: -0.5px;
+    -webkit-transition: box-shadow 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease;
+    -o-transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.4s ease;
+    box-shadow: 0px 2px 10px #eee;
+}
+
+form.contactForm:hover {
+    box-shadow: 0px 4px 14px #dddddd, 0px 0px 6px #ffffff;
+}
+
+form.contactForm span {
+    text-align: center;
+    display: block;
+    color: #333;
+    padding: 19.375px 19.375px 7.75px;
+    font: inherit;
+    font-size: 25.079px;
+}
+
+form.contactForm ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+form.contactForm ul li {
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+form.contactForm ul li i.form-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2%;
+    text-align: center;
+    margin: 0 0.5% 0 1%;
+    padding: 0;
+    font-size: 16.275000000000002px;
+    color: #aaa;
+}
+
+form.contactForm ul li input[type="text"] {
+    width: 90%;
+    background: none;
+    margin: 0;
+    padding: 10.333333849999999px 2%;
+    border: 0;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    text-align: left;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    -webkit-transition: border-bottom 0.35s ease;
+    -moz-transition: border-bottom 0.35s ease;
+    -o-transition: border-bottom 0.35s ease;
+    transition: border-bottom 0.35s ease;
+}
+
+form.contactForm ul li input[type="text"]:focus {
+    outline: none;
+    border-bottom: 3px solid #dd3333;
+}
+
+form.contactForm ul li input[type="text"]::-webkit-input-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li input[type="text"]:-moz-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li input[type="text"]::-moz-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li input[type="text"]:-ms-input-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li input[type="text"]:focus::-webkit-input-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li input[type="text"]:focus:-moz-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li input[type="text"]:focus::-moz-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li input[type="text"]:focus:-ms-input-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li textarea {
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    background: none;
+    padding: 10.333333849999999px 2%;
+    resize: none;
+    border: 0;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    text-align: left;
+    height: auto;
+    min-height: 133px;
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    -webkit-transition: border-bottom 0.35s ease;
+    -moz-transition: border-bottom 0.35s ease;
+    -o-transition: border-bottom 0.35s ease;
+    transition: border-bottom 0.35s ease;
+}
+
+form.contactForm ul li textarea:focus {
+    outline: none;
+    border-bottom: 3px solid #dd3333;
+}
+
+form.contactForm ul li textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+form.contactForm ul li textarea::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+form.contactForm ul li textarea::-webkit-input-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li textarea:-moz-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li textarea::-moz-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li textarea:-ms-input-placeholder {
+    -webkit-transition: color 0.35s ease;
+    -moz-transition: color 0.35s ease;
+    -o-transition: color 0.35s ease;
+    transition: color 0.35s ease;
+    color: #cccccc;
+}
+
+form.contactForm ul li textarea:focus::-webkit-input-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li textarea:focus:-moz-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li textarea:focus::-moz-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li textarea:focus:-ms-input-placeholder {
+    color: #dd3333;
+}
+
+form.contactForm ul li input[type="submit"] {
+    margin: 15px auto 15px;
+    padding: 10.333333849999999px 19.375px;
+    border: 1px solid #d0d0d0;
+    display: inline-block;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-transition: background border 0.35s ease;
+    -moz-transition: background border 0.35s ease;
+    -o-transition: background border 0.35s ease;
+    transition: background border 0.35s ease;
+}
+
+form.contactForm ul li input[type="submit"]:focus {
+    outline: none;
+    border: 1px solid #dd3333;
+}
+
+form.contactForm ul li input[type="submit"]:hover {
+    background: #eaeaea;
+    border: 1px solid #dd3333;
+}
+
+form.contactForm ul li input[type="submit"]:active {
+    background: #d0d0d0;
+}

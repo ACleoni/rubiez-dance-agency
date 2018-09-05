@@ -1,0 +1,238 @@
+/* @_panditya, @baayukurnia */
+nav.navbar {
+    line-height: 35px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgba(245, 245, 245, 0.6);
+    z-index: 99;
+    font-family: -apple-system, 
+                BlinkMacSystemFont, 
+                "Segoe UI", 
+                Roboto, 
+                "Helvetica Neue", 
+                Arial, 
+                sans-serif, 
+                "Apple Color Emoji", 
+                "Segoe UI Emoji", 
+                "Segoe UI Symbol";
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+nav.navbar .title img {
+    height: 80px;
+}
+
+nav.navbar a {
+    display: flex;
+    float: left;
+}
+
+nav.navbar ul {
+    margin: 0;
+    padding: 0 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    float: left;
+}
+
+nav.navbar ul a {
+    display: flex;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav.navbar ul a:hover {
+    color: #dd3333;
+}
+
+nav.navbar ul a:last-child {
+    padding-right: 20px;
+}
+
+nav.navbar ul a span {
+    white-space: pre;
+    letter-spacing: -.5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.searchBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s cubic-bezier(.77, 0, .175, 1);
+    transform: translateX(50px);
+}
+
+nav.searchOpen .searchBox {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .4s;
+    transform: none;
+}
+
+nav ul a {
+    transition: .3s cubic-bezier(.77, 0, .175, 1);
+}
+
+nav.searchOpen ul a {
+    opacity: 0;
+    transform: scale(.5);
+    visibility: hidden;
+}
+
+nav.navbar.searchOpen .searchIcon {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.searchBoxContainer {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.searchBoxContainer .searchBoxBackground {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.searchBoxContainer .searchBoxBackground svg {
+    padding: 16px 0;
+    display: inherit;
+}
+
+.searchBox input {
+    width: 100%;
+    line-height: 49px;
+    padding: 0 10px 0 38px;
+    border: 0;
+    display: inherit;
+    background: transparent;
+}
+
+.searchBox input:focus {
+    outline: none;
+}
+
+.searchResult {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: #fff;
+    padding: 30px;
+    transition: .3s;
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav.searchOpen .searchResult {
+    transition-delay: .7s;
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+}
+
+.searchIcon {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    -webkit-flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    transition: .3s cubic-bezier(.77, 0, .175, 1);
+}
+
+.searchIcon .btnSearch {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.searchIcon .btnSearch svg {
+    display: block;
+    fill: #222;
+}
+
+.btnClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.btnClose svg {
+    padding: 16px 0;
+    display: inherit;
+}
+
+.overlay {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s cubic-bezier(.77, 0, .175, 1);
+}
+
+nav.navbar.searchOpen .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav.searchOpen .overlay {
+    transition-delay: .8s;
+}
+
+@media screen and (max-width:1124px) {
+    nav.navbar ul {
+    display: none;
+    mask-image: -webkit-linear-gradient(to right, transparent, black 20px, black 90%, transparent);
+    mask-image: -moz-linear-gradient(to right, transparent, black 20px, black 90%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 20px, black 90%, transparent);
+    -webkit-mask-image: -webkit-linear-gradient(to right, transparent, black 20px, black 90%, transparent);
+    -webkit-mask-image: -moz-linear-gradient(to right, transparent, black 20px, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 20px, black 90%, transparent);
+    }
+}

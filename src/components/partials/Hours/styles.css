@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, sans-serif;
+};
+
+
+.hours {
+	width: 100%;
+	padding: 1em;
+	background-color: #fff;
+}
+
+.hours h2 {
+	text-align: center;
+}
+
+.hours dt {
+	font-weight: bold
+}
+.hours dt,
+.hours dd {
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+.hoursDayLabel {
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+
+.hoursDay {
+	width: 60%;
+	margin-left: 0;
+	float: right;
+	text-align: right;
+}
+
+@media (min-width: 480px) {
+	.hours {
+		width: 480px;
+		margin: 0 auto;
+	}
+}
+

@@ -1,0 +1,26 @@
+.flyersContainer {
+    display: flex;
+};
+
+.flyer1 {
+    width: auto;
+    overflow: hidden;
+}
+
+.flyer img {
+    width: 100%;
+}
+
+.flyer:hover {
+    cursor: pointer;
+}
+
+.modal {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    z-index: 999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
