@@ -94,19 +94,6 @@ export default class Bookings extends Component {
                             </div>
                     
                 })}
-                {/* <div style={{width: '100vw', display: 'flex', justifyContent: 'center', alignItems:'center', flexDirection: 'column', alignSelf: 'center'}}>
-                    <p style={{width: '50%'}}>
-                        *A one time $200 booking fee is required for all services. 
-                        This fee is nonrefundable unless the dancers are unavailable and will be sent via invoice. 
-                        Includes the dancer’s gas expenses, choreography, and dance studio fees for rehearsals. 
-                    </p>
-                    <p style={{width: '50%'}}>
-                        *Any form of entertainment such as backup dance, music videos, acting gigs, and performance 
-                        shows come with one 2 hour practice session in a professional dance studio covered by Rubiez. 
-                        Additional practices are set up yourself or you must pay for additional hours. 
-                        The final balance must be paid the same day of the event to the dancers.
-                    </p>
-                </div> */}
             </React.Fragment>
         )
     }

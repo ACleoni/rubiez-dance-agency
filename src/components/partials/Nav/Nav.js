@@ -38,15 +38,11 @@ export default class Nav extends Component {
                         <a href="/sessions">
                             <span>Private Sessions</span>
                         </a>
-                        <a href="#gallery">
-                            <span>Studio Rentals</span>
-                        </a>
+                        
                         <a href="/bookings">
                             <span>Book Dancers</span>
                         </a>
-                        <a href="#contact">
-                            <span>Rubiez Rates</span>
-                        </a>
+                        
                         <a href="#contact">
                             <span>Contact Us</span>
                         </a>

@@ -1,4 +1,98 @@
-.headerContainer {
+.headerContainer 
+{
     display: flex;
     justify-content: center;
 }
+
+.mainContainer
+{
+    display: flex;
+    justify-content: center;
+    padding: 0 10em 0 10em;
+}
+
+.miya
+{
+    height: 80vh
+}
+
+.miya img 
+{
+    height: 100%
+}
+
+.header
+{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.desc
+{
+    font-size: 22px;
+    padding: 0 0 0 2em
+}
+
+.sigContainer
+{   
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 767px) 
+{
+    .sigContainer
+    {
+        min-width: 300px;
+        max-width: 320px;
+        margin: auto
+    }
+
+    .sigContainer img 
+    {
+        width: 100%;
+    }
+    
+    .mainContainer
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0
+    }
+
+    .desc
+    {
+        font-size: 16px;
+        padding: 0;
+        text-align: center
+    }
+}
+
+@media only screen and (width: 768px) 
+{
+    .desc
+    {
+        font-size: 22px;
+        padding: .5em;
+    }
+}
+
+@media only screen and (width: 1024px)
+{
+    .mainContainer
+    {
+        padding: 0 2em 0 2em;
+    }
+    .miya
+    {
+        height: 70vh;
+    }
+
+    .headerContainer
+    {
+        margin: 50px 0 0 0;
+    }
+}
+

@@ -14,19 +14,19 @@ export default class About extends Component {
             <React.Fragment>
                 <Nav />
                 <div className={[styles.container, styles.fullScreen].join(' ')}>
-    <section class={styles.row}>
-        <h1 class={styles.title}>Private Sessions</h1>
+    <section className={styles.row}>
+        <h1 className={styles.title}>Private Sessions</h1>
         <hr/>
-        <div class="col-xs-8 col-xs-offset-2">
-            <p class={styles.lead} style={{textAlign: 'center'}}>All Private sessions are for women 21 and up and require a $150 booking fee. Guests may bring outside, soda, water, and birthday cakes. You may also bring wine but no alcohol. </p>
+        <div className="col-xs-8 col-xs-offset-2">
+            <p className={styles.lead} style={{textAlign: 'center'}}>All Private sessions are for women 21 and up and require a $150 booking fee. Guests may bring outside, soda, water, and birthday cakes. You may also bring wine but no alcohol. </p>
             <hr/>
         </div>
     </section>
-    <div style={{display: 'flex', justifyContent: 'space-between'}}>
-        <article style={{width: '320px'}}>
-            <div className={styles.cards}><span class="glyphicon glyphicon-flash icon"></span>
+    <div className={styles.articleContainer}>
+        <article className={styles.article}>
+            <div className={styles.cards}><span className="glyphicon glyphicon-flash icon"></span>
                 <hr className={styles.divider}/>
-                <h2 class={styles.title}>Twerk It! (For Beginners)</h2>
+                <h2 className={styles.title}>Twerk It! (For Beginners)</h2>
                 <div className={styles.info}>
                     <hr className={styles.divider}/>
                         <ul>
@@ -49,8 +49,8 @@ export default class About extends Component {
                     </div>
             </div>
         </article>
-        <article style={{width: '320px'}}>
-            <div class={styles.cards}><span class="glyphicon glyphicon-bookmark icon"></span>
+        <article className={styles.article}>
+            <div className={styles.cards}><span className="glyphicon glyphicon-bookmark icon"></span>
                 <hr className={styles.divider} />
                 <h2 className={styles.title}>Touch Me, Tease Me. (Burlesque For Beginners)</h2>
                 <div className={styles.info}>
@@ -75,12 +75,12 @@ export default class About extends Component {
                 </div>
             </div>
         </article>
-        <article style={{width: '320px'}}>
-            <div class={styles.cards}><span class="glyphicon glyphicon-ice-lolly-tasted icon"></span>
-                <hr class={styles.divider} />
-                <h2 class={styles.title}>Twerk and Tease (Combination for Beginners)</h2>
-                <div class={styles.info}>
-                    <hr class={styles.divider} />
+        <article className={styles.article}>
+            <div className={styles.cards}><span className="glyphicon glyphicon-ice-lolly-tasted icon"></span>
+                <hr className={styles.divider} />
+                <h2 className={styles.title}>Twerk and Tease (Combination for Beginners)</h2>
+                <div className={styles.info}>
+                    <hr className={styles.divider} />
                     <ul>
                             <li>
                             90 Min Twerk and Tease Class

@@ -34,18 +34,19 @@ nav.navbar a {
 
 nav.navbar ul {
     margin: 0;
-    padding: 0 10px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: stretch;
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     height: 100%;
+    width: 100vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -234,5 +235,12 @@ nav.searchOpen .overlay {
     -webkit-mask-image: -webkit-linear-gradient(to right, transparent, black 20px, black 90%, transparent);
     -webkit-mask-image: -moz-linear-gradient(to right, transparent, black 20px, black 90%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 20px, black 90%, transparent);
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+    nav.navbar .title img {
+        height: 40px;
     }
 }
