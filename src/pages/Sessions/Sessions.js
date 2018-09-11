@@ -41,7 +41,7 @@ export default class About extends Component {
                             </li>
                         </ul>
                         <div className={styles.btnContainer}>
-                    <a href={'/miya'} className={styles.link}><div className={styles.ownerLink}>
+                    <a href={'/sessions'} className={styles.link}><div className={styles.ownerLink}>
                         Book Session
                     </div>
                     </a>
@@ -67,7 +67,7 @@ export default class About extends Component {
                             </li>
                         </ul>
                         <div className={styles.btnContainer}>
-                    <a href={'/miya'} className={styles.link}><div className={styles.ownerLink}>
+                    <a href={'/sessions'} className={styles.link}><div className={styles.ownerLink}>
                         Book Session
                     </div>
                     </a>
@@ -93,7 +93,7 @@ export default class About extends Component {
                             </li>
                         </ul>
                         <div className={styles.btnContainer}>
-                    <a href={'/miya'} className={styles.link}><div className={styles.ownerLink}>
+                    <a href={'/sessions'} className={styles.link}><div className={styles.ownerLink}>
                         Book Session
                     </div>
                     </a>

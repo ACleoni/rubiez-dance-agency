@@ -86,7 +86,7 @@ export default class Bookings extends Component {
                                         <h1 className={styles.dancerName}>{dancer.name}</h1>
                                         <p className={styles.dancerDesc}>{dancer.description}</p>
                                         <div className={styles.btnContainer}>
-                                            <a href={'/miya'} className={styles.link}>
+                                            <a href={'/bookings'} className={styles.link}>
                                                 <div className={styles.ownerLink}>
                                                     Book Now
                                                 </div>

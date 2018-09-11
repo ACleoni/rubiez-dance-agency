@@ -63,7 +63,7 @@ export default class Nav extends Component {
                             <a href='#about'><li>About Us</li></a>
                             <a href='/sessions'><li>Private Sessions</li></a>
                             <a href='/bookings'><li>Book Dancers</li></a>
-                            <a href='/contact'><li>Contact Us</li></a>
+                            <a href='#contact'><li>Contact Us</li></a>
                         </ul>   
                     </div>
                 {/* </nav> */}
