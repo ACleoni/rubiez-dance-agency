@@ -30,15 +30,15 @@ export default class ContactForm extends Component {
 				<div className={styles.picContainer}>
 
 					<div className={styles.picContainer1}>
-						{/* <img src={require('../../../images/guest1.jpeg')} alt={'img'} className={styles.pic1} /> */}
+						
 					</div>
 
 					<div className={styles.picContainer2}>
-						{/* <img src={require('../../../images/guest2.png')} alt={'img'} /> */}
+						
 					</div>
 					
 					<div className={styles.picContainer3}>
-						{/* <img src={require('../../../images/guest2.png')} alt={'img'} /> */}
+			
 					</div>
 
 				</div>
