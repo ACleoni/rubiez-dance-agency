@@ -1,23 +1,76 @@
-.bannerContainer {
-    padding: 80px 0 80px 0;
-    background: black;
-    opacity: 0.9;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-};
+@media screen and (max-width: 767px){
+    .header
+    {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
 
-.bannerTitle
+    .content
+    {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        text-align: center;
+        font-style: italic
+    }
+
+    .bannContainer
+    {   
+        background: rgba(0, 0, 0, 0.9);
+        padding: 30px 0 30px 0;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px)
 {
-    font-size: 32px;
-    color: white;
-    margin: 0; 
-};
+    .header
+    {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
 
-.bannerContent
-{ 
-    width: 500px;
-    font-size: 22px;
-    color: white;
-    margin: 0;
-};
+    .content
+    {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        font-style: italic
+    }
+
+    .bannContainer
+    {   
+        background: rgba(0, 0, 0, 0.9);
+        padding: 30px 10px 30px 10px;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .header
+    {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .content
+    {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-style: italic
+    }
+
+    .bannContainer
+    {   
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px 0 24px 0;
+    }
+}

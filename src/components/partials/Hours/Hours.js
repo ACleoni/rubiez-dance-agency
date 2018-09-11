@@ -12,19 +12,19 @@ export default class Hours extends Component {
                     <h2>Studio Hours</h2>
                     <dl className="hours-days clearfix">
                         <dt className={styles.hoursDayLabel}>Sunday</dt>
-                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dd className={styles.hoursDay}>Closed</dd>
                         <dt className={styles.hoursDayLabel}>Monday</dt>
-                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dd className={styles.hoursDay}>6:00 PM - 11:00 PM</dd>
                         <dt className={styles.hoursDayLabel}>Tuesday</dt>
-                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dd className={styles.hoursDay}>6:00 PM - 11:00 PM</dd>
                         <dt className={styles.hoursDayLabel}>Wednesday</dt>
-                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dd className={styles.hoursDay}>6:00 PM - 11:00 PM</dd>
                         <dt className={styles.hoursDayLabel}>Thursday</dt>
-                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dd className={styles.hoursDay}>6:00 PM - 11:00 PM</dd>
                         <dt className={styles.hoursDayLabel}>Friday</dt>
-                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dd className={styles.hoursDay}>6:00 PM - 11:00 PM</dd>
                         <dt className={styles.hoursDayLabel}>Saturday</dt>
-                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dd className={styles.hoursDay}>11:00 AM - 5:00 PM</dd>
                     </dl>
                 </section>
             </div>
