@@ -12,10 +12,8 @@ export default class About extends Component {
                         About Us
                     </h1>
                 </div>
-                <div className={styles.description}>
-                    <p style={{
-                        fontSize: '22px'
-                    }}>
+                <div className={styles.descriptionContainer}>
+                    <p className={styles.description}>
                         Rubiez Dance Agency is specialized 
                         in the development of female professional 
                         dancers & models. We condition dancers for 

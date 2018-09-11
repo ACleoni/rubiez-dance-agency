@@ -77,21 +77,25 @@ export default class Bookings extends Component {
             <React.Fragment>
                 <Nav />
                 {this.state.dancersArray.map((dancer, index) => {
-                    return <div style={{paddingTop: '50px', paddingLeft: '40px', paddingBottom: '20px', display: 'flex', alignItems: 'center', marginLeft: '90px', marginRight: '200px', borderBottom: '1px solid lightgrey'}}>
-                                <span style={{width: '250px', height: '250px'}}>
-                                <img src={require(`${dancer.image}`)} style={{width: '100%', height: '100%', borderRadius: '100%', border: '2px solid'}} />
-                                </span>
-                                <span style={{width: '600px', paddingLeft: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-                                <h1 style={{margin: '10px'}}>{dancer.name}</h1>
-                                <p style={{margin: 0}}>{dancer.description}</p>
-                                <div className={styles.btnContainer}>
-                                    <a href={'/miya'} className={styles.link}><div className={styles.ownerLink}>
-                                        Book Now
+                    return <React.Fragment key={index}>
+                                <div className={styles.profileContainer}>
+                                    <span className={styles.imgContainer}>
+                                        <img src={require(`${dancer.image}`)} className={styles.img} />
+                                    </span>
+                                    <span className={styles.infoContainer}>
+                                        <h1 className={styles.dancerName}>{dancer.name}</h1>
+                                        <p className={styles.dancerDesc}>{dancer.description}</p>
+                                        <div className={styles.btnContainer}>
+                                            <a href={'/miya'} className={styles.link}>
+                                                <div className={styles.ownerLink}>
+                                                    Book Now
+                                                </div>
+                                            </a>
                                         </div>
-                                    </a>
+                                    </span>
                                 </div>
-                                </span>
-                            </div>
+                                <hr className={styles.lineBrk} />
+                            </React.Fragment>
                     
                 })}
             </React.Fragment>

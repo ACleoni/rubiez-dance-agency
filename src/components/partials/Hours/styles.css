@@ -2,6 +2,19 @@ body {
     font-family: Roboto, sans-serif;
 };
 
+.mainContainer
+{
+	display: flex;
+}
+
+.imageContainer
+{
+	width: 50vw
+}
+
+.imageContainer img{
+	width: 100%;
+}
 
 .hours {
 	width: 100%;
@@ -39,6 +52,17 @@ body {
 	.hours {
 		width: 480px;
 		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.mainContainer {
+		flex-direction: column
+	}
+
+	.imageContainer
+	{
+		width: 100vw;
 	}
 }
 

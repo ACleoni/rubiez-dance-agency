@@ -24,3 +24,12 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 415px) {
+    .flyersContainer
+    {
+        flex-direction: column
+    }
+}
+
+

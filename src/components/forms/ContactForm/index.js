@@ -27,14 +27,20 @@ export default class ContactForm extends Component {
                     </h1>
                 </div>   
             </div>
-				<div style={{display: 'flex', alignItems: 'center', height: '700px', justifyContent: 'space-around'}}>
-					<div style={{width: '600px', height: '600px', display: 'flex'}}>
-						<img src={require('../../../images/guest1.jpeg')} alt={'img'} style={{width: '100%', transform: 'rotate(90deg)'}} />
+				<div className={styles.picContainer}>
+
+					<div className={styles.picContainer1}>
+						{/* <img src={require('../../../images/guest1.jpeg')} alt={'img'} className={styles.pic1} /> */}
+					</div>
+
+					<div className={styles.picContainer2}>
+						{/* <img src={require('../../../images/guest2.png')} alt={'img'} /> */}
 					</div>
 					
-					<div style={{width: '600px', height: '600px', display: 'flex'}}>
-						<img src={require('../../../images/guest2.png')} alt={'img'} style={{width: '100%'}} />
+					<div className={styles.picContainer3}>
+						{/* <img src={require('../../../images/guest2.png')} alt={'img'} /> */}
 					</div>
+
 				</div>
 				<hr />
 				<form action="" className={styles.contactForm}>

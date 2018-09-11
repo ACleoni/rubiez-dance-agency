@@ -4,12 +4,9 @@ import styles from './styles.css';
 export default class Hours extends Component {
     render(){
         return (
-            <div style={{
-                display: 'flex',
-                // height: '500px'
-            }}>
-            <div style={styles.leftImage}>
-                <img src={require('../../../images/class.jpg')} alt={'img'} height={'auto'} style={{width: '50vw'}} />
+            <div className={styles.mainContainer}>
+            <div className={styles.imageContainer}>
+                <img src={require('../../../images/class.jpg')} alt={'Dance Class'} />
             </div>
                 <section class={styles.hours} id={styles.hours}>
                     <h2>Studio Hours</h2>

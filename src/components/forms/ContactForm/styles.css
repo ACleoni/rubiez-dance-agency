@@ -1,5 +1,49 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
+
+@media screen and (max-width: 415px)
+{
+    .picContainer1
+    {
+        height: 320px;
+        background-image: url('./images/guest1.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: rotate(90deg);
+        margin: 40px 0 40px 0
+
+    }
+
+    .picContainer2
+    {
+        height: 320px;
+        background-image: url('./images/guest2.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 40px 0 20px 0
+
+    }
+
+    .picContainer3
+    {
+        height: 320px;
+        background-image: url('./images/guest3.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 20px 0 40px 0
+
+    }
+
+    .pic1
+    {
+        transform: rotate(90deg)
+    }
+}
+
+
 form.contactForm {
     width: 100%;
     max-width: 580px;

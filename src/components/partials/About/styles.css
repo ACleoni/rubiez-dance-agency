@@ -1,17 +1,21 @@
 .headerContainer {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     padding: 0 5em 0 5em;
 }
 
-.description {
+.descriptionContainer {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     padding: 0 10em 0 10em;
+}
+
+.description
+{
+    font-size: 22px;
 }
 
 .btnContainer {
@@ -53,4 +57,19 @@
 .link {
     text-decoration: none;
     color: black;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .descriptionContainer
+    {
+        padding: 0;
+    }
+
+    .description
+    {
+        
+        font-size: 18px;
+    }
 }
