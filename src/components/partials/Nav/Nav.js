@@ -52,7 +52,7 @@ export default class Nav extends Component {
                     </div>
                 </nav>
                 {/* The mobile nav bar */}
-                <nav>
+                {/* <nav> */}
                     <div id={styles.menuToggle}>
                         <input type="checkbox" />
                         <span></span>
@@ -66,7 +66,7 @@ export default class Nav extends Component {
                             <a href='/contact'><li>Contact Us</li></a>
                         </ul>   
                     </div>
-                </nav>
+                {/* </nav> */}
             </React.Fragment>
         )
     }
