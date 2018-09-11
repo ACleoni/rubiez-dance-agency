@@ -80,7 +80,7 @@ export default class Bookings extends Component {
                     return <React.Fragment key={index}>
                                 <div className={styles.profileContainer}>
                                     <span className={styles.imgContainer}>
-                                        <img src={require(`${dancer.image}`)} className={styles.img} />
+                                        <img src={require(`${dancer.image}`)} className={styles.img} alt={`${dancer.name}`} />
                                     </span>
                                     <span className={styles.infoContainer}>
                                         <h1 className={styles.dancerName}>{dancer.name}</h1>

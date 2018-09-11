@@ -8,23 +8,23 @@ export default class Hours extends Component {
             <div className={styles.imageContainer}>
                 <img src={require('../../../images/class.jpg')} alt={'Dance Class'} />
             </div>
-                <section class={styles.hours} id={styles.hours}>
+                <section className={styles.hours} id={styles.hours}>
                     <h2>Studio Hours</h2>
-                    <dl class="hours-days clearfix">
-                        <dt class={styles.hoursDayLabel}>Sunday</dt>
-                        <dd class={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
-                        <dt class={styles.hoursDayLabel}>Monday</dt>
-                        <dd class={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
-                        <dt class={styles.hoursDayLabel}>Tuesday</dt>
-                        <dd class={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
-                        <dt class={styles.hoursDayLabel}>Wednesday</dt>
-                        <dd class={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
-                        <dt class={styles.hoursDayLabel}>Thursday</dt>
-                        <dd class={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
-                        <dt class={styles.hoursDayLabel}>Friday</dt>
-                        <dd class={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
-                        <dt class={styles.hoursDayLabel}>Saturday</dt>
-                        <dd class={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                    <dl className="hours-days clearfix">
+                        <dt className={styles.hoursDayLabel}>Sunday</dt>
+                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dt className={styles.hoursDayLabel}>Monday</dt>
+                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dt className={styles.hoursDayLabel}>Tuesday</dt>
+                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dt className={styles.hoursDayLabel}>Wednesday</dt>
+                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dt className={styles.hoursDayLabel}>Thursday</dt>
+                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dt className={styles.hoursDayLabel}>Friday</dt>
+                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
+                        <dt className={styles.hoursDayLabel}>Saturday</dt>
+                        <dd className={styles.hoursDay}>9:00 AM - 5:00 PM</dd>
                     </dl>
                 </section>
             </div>

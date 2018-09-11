@@ -6,3 +6,18 @@
     justify-content: space-around;
     align-items: center;
 };
+
+.titleContainer
+{
+    font-size: 32px;
+    color: white;
+    margin: 0; 
+};
+
+.bannerContent
+{ 
+    width: 500px;
+    font-size: 22px;
+    color: white;
+    margin: 0;
+};

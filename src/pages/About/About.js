@@ -16,7 +16,8 @@ export default class About extends Component {
                 <div className={styles.mainContainer}>
                     <div className={styles.miya}>
                         <img src={require('../../images/miya.png')} 
-                            draggable={false} />
+                            draggable={false}
+                            alt={'Miya the Owner'} />
                     </div>
                     <div>
                     <div className={styles.headerContainer}>
@@ -47,7 +48,7 @@ export default class About extends Component {
                         </p>
                     </div>
                         <div className={styles.sigContainer}>
-                        <img src={require('../../images/sig.png')} />
+                        <img src={require('../../images/sig.png')} alt={"Owners Signature"} />
                         </div>
                     </div>
                 </div>
