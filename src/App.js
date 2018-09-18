@@ -13,7 +13,7 @@ import { Provider } from 'react-redux';
 import { store, persistor } from './redux';
 
 // Imported Screens
-import { Home, About, Bookings, Sessions } from './pages';
+import { Home, About, Bookings, Sessions } from './views';
 
 // Enable Parallax Scrolling
 import { ParallaxProvider } from 'react-scroll-parallax'
@@ -25,7 +25,7 @@ const App = () => {
         <ParallaxProvider>
           <Router>
             <Switch>
-            <Route exact path='/sessions' component={Sessions} />
+              <Route exact path='/sessions' component={Sessions} />
               <Route exact path='/bookings' component={Bookings} />
               <Route exact path='/miya' component={About} />
               <Route exact path='/' component={Home} />

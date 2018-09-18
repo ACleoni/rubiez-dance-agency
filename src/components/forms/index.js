@@ -1,9 +1,11 @@
 import ContactForm from './ContactForm';
+import BookingForm from './BookingForm';
+
 
 export {
-    ContactForm
+    ContactForm, BookingForm
 };
 
 export default {
-    ContactForm
+    ContactForm, BookingForm
 };

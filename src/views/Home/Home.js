@@ -23,9 +23,9 @@ export default class Home extends Component {
                 <img src={require('../../images/mainbg.jpg')} width={'100%'} alt={'img'} />
                 <Banner />
                 <Flyers />
-                <About />
+                <div id='about'><About /></div>
                 <Hours />
-                <ContactForm />
+                <div id='contact'><ContactForm /></div>
             </React.Fragment>
         )
     }

@@ -34,7 +34,7 @@ export default class Nav extends Component {
                             <a href="/">
                                 <span>Home</span>
                             </a>
-                            <a href="#about">
+                            <a href="/#about">
                                 <span>About Us</span>
                             </a>
                             <a href="/sessions">
@@ -45,7 +45,7 @@ export default class Nav extends Component {
                                 <span>Book Dancers</span>
                             </a>
                             
-                            <a href="#contact">
+                            <a href="/#contact">
                                 <span>Contact Us</span>
                             </a>
                         </ul>
@@ -60,10 +60,10 @@ export default class Nav extends Component {
                         <span></span>
                         <ul id={styles.barMenu}>
                             <a href='/'><li>Home</li></a>
-                            <a href='#about'><li>About Us</li></a>
+                            <a href='/#about'><li>About Us</li></a>
                             <a href='/sessions'><li>Private Sessions</li></a>
                             <a href='/bookings'><li>Book Dancers</li></a>
-                            <a href='#contact'><li>Contact Us</li></a>
+                            <a href='/#contact'><li>Contact Us</li></a>
                         </ul>   
                     </div>
                 {/* </nav> */}

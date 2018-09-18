@@ -1,0 +1,40 @@
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ownerLink {
+    margin: 15px auto 15px;
+    padding: 10.333333849999999px 19.375px;
+    border: 1px solid #d0d0d0;
+    display: inline-block;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-transition: background border 0.35s ease;
+    -moz-transition: background border 0.35s ease;
+    -o-transition: background border 0.35s ease;
+    transition: background border 0.35s ease;
+}
+
+.ownerLink:focus {
+    outline: none;
+    border: 1px solid #dd3333;
+}
+
+.ownerLink:hover {
+    cursor: pointer;
+    background: #eaeaea;
+    border: 1px solid #dd3333;
+}
+
+.ownerLink:active {
+    background: #d0d0d0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

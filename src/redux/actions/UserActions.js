@@ -1,10 +1,10 @@
 import {
-    SUBSCRIBE 
+    SET_USER 
 } from '../actions';
 
-export const subscribe = (user) => dispatch => {
+export const setUser = (user) => dispatch => {
     dispatch({
-        type: SUBSCRIBE,
+        type: SET_USER,
         payload: user
     })
 }

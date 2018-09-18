@@ -1,2 +1,2 @@
 // List of available action types
-export const SUBSCRIBE = 'SUBSCRIBE';
+export const SET_USER = 'SET_USER';

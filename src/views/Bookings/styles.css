@@ -31,10 +31,11 @@
 .infoContainer
 {
     width: 800px;
-    padding-left: 20px;
+    padding: 0 20px 0 20px;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 
@@ -54,6 +55,7 @@
     .dancerDesc
     {
         margin: 0;
+        text-align: justify;
     }
 
     .infoContainer
